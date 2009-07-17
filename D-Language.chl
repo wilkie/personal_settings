@@ -1,0 +1,139 @@
+//////////////////////////////////////////////////////////////////////////////
+//
+// D-Language (D) highlighter written by michael margolese, sckid1108@hotmail.com
+//
+//////////////////////////////////////////////////////////////////////////////
+
+Language:               D
+Filter:                 D files (*.d, *.def, *.sh)| *.d;*.def;*.sh
+HelpFile:
+CaseSensitive:          1
+LineComment:            //
+BlockCommentBeg:        /* /+
+BlockCommentEnd:        */ +/
+IdentifierBegChars:     a..z A..Z _
+IdentifierChars:        a..z A..Z _ 0..9
+NumConstBegChars:       0..9
+NumConstChars:          0..9 abcdefx.
+EscapeChar:             \
+
+KeyWords1:      abstract 
+                alias 
+                align 
+                asm
+		assert 
+                auto 
+                bit 
+                body
+		break
+		byte
+                case
+		cast
+		catch
+		cent
+		char
+		class
+		cfloat
+		cdouble
+		creal
+		const
+		continue
+		dchar
+		debug
+		default
+		delegate
+		delete
+		deprecated
+		do
+		double
+                else
+		enum
+		export
+		extern
+		false
+		final
+		finally
+		float
+		for
+		foreach
+		function
+		goto
+		idouble
+		if
+		ifloat
+		import
+		in
+		inout
+		int
+		interface
+		invariant
+		ireal
+		is
+		long
+		module
+		new
+		null
+		out
+		override
+		pragma
+		private
+		protected
+		public
+		real
+		return
+		short
+		static
+		struct
+		super
+		switch
+		synchronized
+		template
+		this
+		throw
+		true
+		try
+		typedef
+		typeof
+		ubyte
+		ucent
+		uint
+		ulong
+		union
+		unittest
+		ushort
+		version
+		void
+		volatile
+		wchar
+		while
+		with
+
+
+StringBegChar:          "
+StringEndChar:          "
+MultilineStrings:       0
+UsePreprocessor:        0
+CurrLineHighlighted:    0
+
+SpaceCol:               clWindowText $00505050
+Keyword1Col:            $00FF8080 $00505050 B
+IdentifierCol:          $00D0D0D0 $00505050
+CommentCol:             $00009700 $00505050 I
+NumberCol:              $00FFFFC0 $00505050
+StringCol:              $00BDA3C2 $00505050
+SymbolCol:              $00C0C0FF $00505050
+PreprocessorCol:        clBlue $00505050
+SelectionCol:           clWhite clNavy
+CurrentLineCol:         clBlack clYellow
+
+
+
+OverrideTxtFgColor:     0
+BlockAutoindent:        0
+BlockBegStr:
+BlockEndStr:
+Keyword2Col:            clWindowText $00505050
+Keyword3Col:            clWindowText $00505050
+Keyword4Col:            clWindowText $00505050
+Keyword5Col:            clWindowText $00505050
+MatchedBracesCol:       $00C0C0FF $00505050
