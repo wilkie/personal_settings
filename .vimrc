@@ -91,7 +91,6 @@ if !exists(":DiffOrig")
 endif
 
 set t_Co=256
-"set term=xterm-256color
 syn on
 colorscheme zenburn "simple_blue
 "colorscheme vanzan_color
